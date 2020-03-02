@@ -224,7 +224,7 @@ var assemblies = [
   {
     "name": "FsQuotedPrintable",
     "classes": [
-      { "name": "FsQuotedPrintable", "rp": "FsQuotedPrintable_FsQuotedPrintable.htm", "cl": 56, "ucl": 6, "cal": 62, "tl": 122, "ct": "LineCoverage", "mc": "-", "cb": 16, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "FsQuotedPrintable", "rp": "FsQuotedPrintable_FsQuotedPrintable.htm", "cl": 36, "ucl": 2, "cal": 38, "tl": 120, "ct": "LineCoverage", "mc": "-", "cb": 18, "tb": 18, "lch": [], "bch": [], "hc": [] },
       { "name": "System.AssemblyVersionInformation", "rp": "FsQuotedPrintable_AssemblyVersionInformation.htm", "cl": 0, "ucl": 0, "cal": 0, "tl": 0, "ct": "MethodCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
