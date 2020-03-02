@@ -2,6 +2,15 @@
 
 This is a small library to handle decoding and encoding data in the [Quoted-Printable](https://en.wikipedia.org/wiki/Quoted-printable) format.
 
+## Usage
+
+```
+FsQuotedPrintable.Decode("E=3Dmc2") // "E=mc2"
+FsQuotedPrintable.DecodeString("E=3Dmc2", System.Text.Encoding.UTF8)
+
+FsQuotedPrintable.Encode(System.Text.Encoding.UTF8.GetBytes("E=mc2"))
+FsQuotedPrintable.EncodeString("E=mc2", System.Text.Encoding.ASCII) // "e=3Dmc2"
+```
 ---
 
 ## Builds
