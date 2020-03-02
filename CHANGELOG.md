@@ -10,4 +10,3 @@ Initial release
 ### Added
 - Basic decoding and encoding functionality
 
-[Unreleased]: https://github.com/enovales/FsQuotedPrintable.git/releases/tag/v0.1.0...HEAD
