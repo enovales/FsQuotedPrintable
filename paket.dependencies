@@ -7,7 +7,7 @@ nuget Microsoft.SourceLink.GitHub prerelease copy_local: true
 nuget Microsoft.NETFramework.ReferenceAssemblies copy_local: true
 nuget Expecto 8.13.1
 nuget Expecto.FsCheck 8.13.1
-nuget FsCheck
+nuget FsCheck 2.14
 nuget YoloDev.Expecto.TestSdk 0.8.0
 nuget Microsoft.NET.Test.Sdk 15.7.2
 nuget altcover ~> 6
