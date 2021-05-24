@@ -5,7 +5,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <Title>FsQuotedPrintable</Title>
-    <Description>FsQuotedPrintable does the thing!</Description>
+    <Description>Encodes and decodes data in the Quoted-Printable format.</Description>
 
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
