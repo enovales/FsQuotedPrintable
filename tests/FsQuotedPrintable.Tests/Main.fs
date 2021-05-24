@@ -1,6 +1,9 @@
-module ExpectoTemplate
+namespace FsQuotedPrintable.Tests
 
-open Expecto
+module ExpectoTemplate =
 
-[<EntryPoint>]
-let main argv = Tests.runTestsInAssembly defaultConfig argv
+    open Expecto
+
+    [<EntryPoint>]
+    let main argv =
+        Tests.runTestsInAssembly defaultConfig argv
