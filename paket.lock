@@ -5,6 +5,12 @@ NUGET
     Expecto (9.0.2)
       FSharp.Core (>= 4.6) - restriction: || (>= net461) (>= netstandard2.0)
       Mono.Cecil (>= 0.11.2) - restriction: || (>= net461) (>= netstandard2.0)
+    Expecto.FsCheck (9.0.2)
+      Expecto (>= 9.0.2) - restriction: || (>= net461) (>= netstandard2.0)
+      FsCheck (>= 2.14.2) - restriction: || (>= net461) (>= netstandard2.0)
+    FsCheck (2.15.3)
+      FSharp.Core (>= 4.0.0.1) - restriction: && (< net452) (>= netstandard1.0) (< netstandard1.6)
+      FSharp.Core (>= 4.2.3) - restriction: || (>= net452) (>= netstandard1.6)
     FSharp.Core (5.0)
     Microsoft.Build.Tasks.Git (1.0) - copy_local: true
     Microsoft.CodeCoverage (16.9.4) - restriction: || (>= net45) (>= netcoreapp2.1)
