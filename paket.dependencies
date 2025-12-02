@@ -1,32 +1,32 @@
 source https://www.nuget.org/api/v2
 source https://api.nuget.org/v3/index.json
 storage: none
-nuget FSharp.Core 5.0
-nuget Microsoft.SourceLink.GitHub 1.0.0 copy_local: true
-nuget Expecto 9.0.2
-nuget Expecto.FsCheck 9.0.2
-nuget FsCheck ~> 2.15
-nuget YoloDev.Expecto.TestSdk 0.11.1
-nuget Microsoft.NET.Test.Sdk 16.8.0
-nuget altcover ~> 7
+nuget FSharp.Core
+nuget Microsoft.SourceLink.GitHub copy_local: true
+nuget Expecto
+nuget Expecto.FsCheck
+nuget FsCheck
+nuget YoloDev.Expecto.TestSdk
+nuget Microsoft.NET.Test.Sdk
+nuget altcover
 
 // [ FAKE GROUP ]
 group Build
     storage: none
     source https://www.nuget.org/api/v2
     source https://api.nuget.org/v3/index.json
-    nuget Fake.IO.FileSystem 5.20.4-alpha.1642
-    nuget Fake.Core.Target 5.20.4-alpha.1642
-    nuget Fake.Core.ReleaseNotes 5.20.4-alpha.1642
-    nuget FAKE.Core.Environment 5.20.4-alpha.1642
-    nuget Fake.DotNet.Cli 5.20.4-alpha.1642
-    nuget FAKE.Core.Process 5.20.4-alpha.1642
-    nuget Fake.DotNet.AssemblyInfoFile 5.20.4-alpha.1642
-    nuget Fake.Tools.Git 5.20.4-alpha.1642
-    nuget Fake.DotNet.Paket 5.20.4-alpha.1642
-    nuget Fake.Api.GitHub 5.20.4-alpha.1642
-    nuget Fake.BuildServer.GitHubActions 5.20.4-alpha.1642
-    nuget Fantomas 3.2
+    nuget Fake.IO.FileSystem
+    nuget Fake.Core.Target
+    nuget Fake.Core.ReleaseNotes
+    nuget Fake.Core.Environment
+    nuget Fake.DotNet.Cli
+    nuget Fake.Core.Process
+    nuget Fake.DotNet.AssemblyInfoFile
+    nuget Fake.Tools.Git
+    nuget Fake.DotNet.Paket
+    nuget Fake.Api.GitHub
+    nuget Fake.BuildServer.GitHubActions
+    nuget Fantomas
     nuget Argu
 
 group Docs
@@ -35,14 +35,14 @@ group Docs
     source https://api.nuget.org/v3/index.json
     nuget Argu
     nuget FSharp.Core
-    nuget Fake.IO.FileSystem 5.20.4-alpha.1642
-    nuget FAKE.Core.Environment 5.20.4-alpha.1642
-    nuget Fake.DotNet.Cli 5.20.4-alpha.1642
-    nuget FSharp.Formatting 4.0.0-rc1
-    nuget FSharp.Literate 4.0.0-rc1
+    nuget Fake.IO.FileSystem
+    nuget Fake.Core.Environment
+    nuget Fake.DotNet.Cli
+    nuget FSharp.Formatting
+    nuget FSharp.Literate
     nuget Fable.React
 
 group Analyzers
   source https://www.nuget.org/api/v2
   source https://api.nuget.org/v3/index.json
-  nuget BinaryDefense.FSharp.Analyzers.Hashing 0.2.2
+  nuget BinaryDefense.FSharp.Analyzers.Hashing
