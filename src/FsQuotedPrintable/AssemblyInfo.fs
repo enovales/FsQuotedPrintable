@@ -4,18 +4,18 @@ open System.Reflection
 
 [<assembly: AssemblyTitleAttribute("FsQuotedPrintable")>]
 [<assembly: AssemblyProductAttribute("FsQuotedPrintable")>]
-[<assembly: AssemblyVersionAttribute("0.3.0")>]
-[<assembly: AssemblyMetadataAttribute("ReleaseDate","2026-10-13T00:00:00.0000000-07:00")>]
-[<assembly: AssemblyFileVersionAttribute("0.3.0")>]
-[<assembly: AssemblyInformationalVersionAttribute("0.3.0")>]
+[<assembly: AssemblyVersionAttribute("0.4.0")>]
+[<assembly: AssemblyMetadataAttribute("ReleaseDate","2026-10-14T00:00:00.0000000-07:00")>]
+[<assembly: AssemblyFileVersionAttribute("0.4.0")>]
+[<assembly: AssemblyInformationalVersionAttribute("0.4.0")>]
 [<assembly: AssemblyMetadataAttribute("ReleaseChannel","release")>]
 do ()
 
 module internal AssemblyVersionInformation =
     let [<Literal>] AssemblyTitle = "FsQuotedPrintable"
     let [<Literal>] AssemblyProduct = "FsQuotedPrintable"
-    let [<Literal>] AssemblyVersion = "0.3.0"
-    let [<Literal>] AssemblyMetadata_ReleaseDate = "2026-10-13T00:00:00.0000000-07:00"
-    let [<Literal>] AssemblyFileVersion = "0.3.0"
-    let [<Literal>] AssemblyInformationalVersion = "0.3.0"
+    let [<Literal>] AssemblyVersion = "0.4.0"
+    let [<Literal>] AssemblyMetadata_ReleaseDate = "2026-10-14T00:00:00.0000000-07:00"
+    let [<Literal>] AssemblyFileVersion = "0.4.0"
+    let [<Literal>] AssemblyInformationalVersion = "0.4.0"
     let [<Literal>] AssemblyMetadata_ReleaseChannel = "release"
