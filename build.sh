@@ -3,7 +3,12 @@
 set -eu
 set -o pipefail
 
-echo "Restoring dotnet tools..."
-dotnet tool restore
+echo "Building FsQuotedPrintable with .NET 8..."
 
-PAKET_SKIP_RESTORE_TARGETS=true FAKE_DETAILED_ERRORS=true dotnet fake build -t "$@"
+if [ $# -eq 0 ]; then
+    dotnet restore
+    dotnet build FsQuotedPrintable.sln --configuration Release
+    dotnet test FsQuotedPrintable.sln --configuration Release --no-build
+else
+    dotnet "$@"
+fi

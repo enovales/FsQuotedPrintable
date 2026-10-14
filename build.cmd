@@ -1,4 +1,12 @@
-echo Restoring dotnet tools...
-dotnet tool restore
+@echo off
+setlocal
 
-dotnet fake build -t %*
+echo Building FsQuotedPrintable with .NET 8...
+
+if "%1"=="" (
+    dotnet restore
+    dotnet build FsQuotedPrintable.sln --configuration Release
+    dotnet test FsQuotedPrintable.sln --configuration Release --no-build
+) else (
+    dotnet %*
+)
